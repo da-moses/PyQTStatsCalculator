@@ -1,0 +1,6 @@
+#a helpful stats library
+import scipy
+from scipy import stats
+
+kurtosis_value = scipy.stats.kurtosis(data_array, axis =0, fisher =True, bias = True)
+
